@@ -1,0 +1,23 @@
+[
+		{
+			"name": "user1",
+			"gender": "male",
+			"hobby": "playing"
+		},
+		{
+			"name": "user2",
+			"gender": "male",
+			"hobby": "playing"
+		},
+		{
+			"name": "user3",
+			"gender": "male",
+			"hobby": "playing"
+		}
+]
+
+let user = {
+	"age": 20
+}
+
+console.log(user.age)
