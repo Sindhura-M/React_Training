@@ -13,10 +13,7 @@ export default class Display extends Component{
 	}*/
 
 	shouldComponentUpdate(newProps, prevProps){
-		console.log("shouldComponentUpdate", newProps, prevProps);
-		if(newProps.name !== prevProps.name){
-			return true;
-		}
+		return false;
 	}
 
 
@@ -35,7 +32,7 @@ export default class Display extends Component{
 		return(
 			<div>
 			Display component
-			<p>hi diplay</p>
+			<p>{this.props.name}</p>
 			</div>
 		);
 	}
